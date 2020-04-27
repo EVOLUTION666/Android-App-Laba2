@@ -71,7 +71,7 @@ public class HomeActivity extends AppCompatActivity {
                             Civilization civilization = new Civilization();
                             civilization.setName(jsonObject.getString("name"));
                             if (jsonObject.has("helptext")) {
-                                civilization.setHelptext(jsonObject.getString("Helptext"));
+                                civilization.setHelptext(jsonObject.getString("helptext"));
                             } else {
                                 civilization.setHelptext("This card does't have help text!");
                             }
